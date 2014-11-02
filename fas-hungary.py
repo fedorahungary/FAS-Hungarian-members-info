@@ -9,8 +9,8 @@ def calc_list():
     people_list = []
     flag = 0
     group_name = 'cla_done'
-    username = 'FASusername'
-    password = 'FASpassword'
+    username = raw_input("Username: ")
+    password = raw_input("Password: ")
 
     fas = AccountSystem(username=username, password=password)
 
